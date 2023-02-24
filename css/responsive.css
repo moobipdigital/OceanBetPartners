@@ -83,6 +83,14 @@
 		z-index: 2;
 		background-color: #3C3C46;
 	}
+
+	.reg-login-container .headingTitle:before {
+		display: none;
+	}
+
+	.reg-login-container .headingTitle {
+		padding-left: 0;
+	}
 	
 }
 

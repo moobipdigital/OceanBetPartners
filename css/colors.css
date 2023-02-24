@@ -15,7 +15,7 @@ h6,
 .filtersList > li > a:hover,
 .ftNav li.active a,
 .ftNav a:hover {
-	color: #00f3ff;
+	color: #B2313A;
 }
 
 /*.navbar-dark .pgMainNavigation .nav-link,
@@ -25,8 +25,8 @@ h6,
 }*/
 
 .text-dark.headingTitle:before {
-	background-image: -webkit-linear-gradient(left, #3C3C46 0%, #3C3C46 100%), -webkit-linear-gradient(left, #3C3C46 0%, #3C3C46 100%), -webkit-radial-gradient(center ellipse, #FF69FE 0%, #FF69FE 50%, rgba(255, 197, 20, 0) 50%, rgba(255, 197, 20, 0) 100%);
-	background-image: linear-gradient(90deg, #3C3C46 0%, #3C3C46 100%), linear-gradient(90deg, #3C3C46 0%, #3C3C46 100%), radial-gradient(ellipse at center, #FF69FE 0%, #FF69FE 50%, rgba(255, 197, 20, 0) 50%, rgba(255, 197, 20, 0) 100%);
+	background-image: -webkit-linear-gradient(left, #3C3C46 0%, #3C3C46 100%), -webkit-linear-gradient(left, #3C3C46 0%, #3C3C46 100%), -webkit-radial-gradient(center ellipse, #FB444E 0%, #FB444E 50%, rgba(255, 197, 20, 0) 50%, rgba(255, 197, 20, 0) 100%);
+	background-image: linear-gradient(90deg, #3C3C46 0%, #3C3C46 100%), linear-gradient(90deg, #3C3C46 0%, #3C3C46 100%), radial-gradient(ellipse at center, #FB444E 0%, #FB444E 50%, rgba(255, 197, 20, 0) 50%, rgba(255, 197, 20, 0) 100%);
 	background-repeat: no-repeat;
 	background-size: 20px 2px, 7px 2px, 7px 7px;
 	background-position: 0 50%, 27px 50%, 43px 50%;
@@ -43,15 +43,23 @@ h6,
 .navbar-dark .pgMainNavigation .nav-link:hover,
 .pgNavOpener,
 .navbar-dark .pgNavOpener,
-.prTitle,
+.prTitle
+{
+	color: #000000;
+}
+
 .clientQuote:before,
 .clientQuote cite,
 .nwbColumn .timeStamp {
-	color: #2828FF;
+	color: #FB444E;
 }
 
 .btnTheme,
-.btnThemeOutline:hover,
+.btnThemeOutline:hover {
+	background-color: #000000;
+}
+
+.edot,
 .pgMainNavigation .nav-link:after,
 .abflcTag,
 .mscIcnWrap,
@@ -60,42 +68,43 @@ h6,
 .escIcnWrap,
 .dotsList li.slick-active button,
 .dotsList button:hover,
-.nwbcCaption:before,
-.edot {
-	background-color: #2828FF;
+.nwbcCaption:before
+ {
+	color: #FB444E;
 }
+
 
 .btnTheme:hover,
 .form-control:focus,
 .btnTheme,
 .btnThemeOutline {
-	border-color: #2828FF;
+	border-color: #000000;
 }
 
 a,
 .btn-link,
 .faqQA {
-	color: #ff66f4;
+	color: #FB444E;
 }
 
 a:hover {
-	color: #A83CA4;
+	color: #B2313A;
 }
 
 .btnPink {
-    background-color: #ff66f4;
-    border-color: #ff66f4;
+    background-color: #FB444E;
+    border-color: #FB444E;
     color: #fff;
 }
 
 .btnPink:hover {
     background-color: #fff;
-    border-color: #ff66f4;
-    color: #ff66f4;
+    border-color: #FB444E;
+    color: #FB444E;
 }
 
 .bg-pink {
-	background-color: #ff66f4;
+	background-color: #FB444E;
 }
 
 .ftAreaWrap h1,
@@ -110,5 +119,5 @@ a:hover {
 .ftAreaWrap .h5,
 .ftAreaWrap h6,
 .ftAreaWrap .h6 {
-	color: #ff66f4;
+	color: #FB444E;
 }

@@ -800,9 +800,7 @@ h5,
 h6,
 .h6,
 .btn {
-	
-	font-family: "Tomorrow";
-	text-transform: uppercase;
+	font-family: 'Redressed', cursive;
 }
 
 .btn {
@@ -981,7 +979,7 @@ Header fixer / .headerFixer
 }
 
 .headerFixer .pgMainNavigation .nav-item.anchor-active .nav-link:hover, .headerFixer .pgMainNavigation .nav-item .nav-link:hover {
-    color: #2828FF;
+    color: #FB444E;
 }
 
 
@@ -1128,8 +1126,8 @@ Heading Title / .headingTitle
 }
 
 .headingTitle:before {
-	background-image: -webkit-linear-gradient(left, white 0%, white 100%), -webkit-linear-gradient(left, white 0%, white 100%), -webkit-radial-gradient(center ellipse, #FF69FE 0%, #FF69FE 50%, rgba(255, 197, 20, 0) 50%, rgba(255, 197, 20, 0) 100%);
-	background-image: linear-gradient(90deg, white 0%, white 100%), linear-gradient(90deg, white 0%, white 100%), radial-gradient(ellipse at center, #FF69FE 0%, #FF69FE 50%, rgba(255, 197, 20, 0) 50%, rgba(255, 197, 20, 0) 100%);
+	background-image: -webkit-linear-gradient(left, white 0%, white 100%), -webkit-linear-gradient(left, white 0%, white 100%), -webkit-radial-gradient(center ellipse, #FB444E 0%, #FB444E 50%, rgba(255, 197, 20, 0) 50%, rgba(255, 197, 20, 0) 100%);
+	background-image: linear-gradient(90deg, white 0%, white 100%), linear-gradient(90deg, white 0%, white 100%), radial-gradient(ellipse at center, #FB444E 0%, #FB444E 50%, rgba(255, 197, 20, 0) 50%, rgba(255, 197, 20, 0) 100%);
 	background-repeat: no-repeat;
 	background-size: 20px 2px, 7px 2px, 7px 7px;
 	background-position: 0 50%, 27px 50%, 43px 50%;

@@ -787,6 +787,11 @@ h6 a,
 	color: inherit;
 }
 
+@font-face {
+	font-family: "Funkydori"; 
+	src: url("fonts/funkydori.woff2") format("woff2"), url("fonts/funkydori.woff") format("woff"), url("fonts/funkydori.ttf") format("truetype");
+}
+
 h1,
 .h1,
 h2,
@@ -800,7 +805,7 @@ h5,
 h6,
 .h6,
 .btn {
-	font-family: 'Redressed', cursive;
+	font-family: 'Funkydori', cursive;	
 }
 
 .btn {
@@ -971,7 +976,7 @@ Header fixer / .headerFixer
 }
 
 .headerFixer .pgMainNavigation .nav-item.anchor-active .nav-link, .headerFixer .pgMainNavigation .nav-item .nav-link {
-    color: #ffffff;
+    color: #3C3C46;
 }
 
 .headerFixer.fixedPosition .pgMainNavigation .nav-item.anchor-active .nav-link, .headerFixer.fixedPosition .pgMainNavigation .nav-item .nav-link {

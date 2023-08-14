@@ -38,7 +38,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "affiliates@oceanbetpartners.com";
+$EmailTo = "contact@oceanbetpartners.com";
 $Subject = "New Website Message Received";
 
 // prepare email body text
